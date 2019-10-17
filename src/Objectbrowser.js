@@ -2,9 +2,7 @@
 //  Objectbrowser.js
 //  via apple-picker, mlBench, and danmckeown.info #5
 import React, { Component } from "react";
-//  import { TextInput, Button, Pane } from "evergreen-ui";
 import SpreadsheetObjectbrowser from "./SpreadsheetObjectbrowser";
-//  import Headernav from "./Headernav";
 import Errorboundary from "./Errorboundary";
 
 import reloadOnce from "./reloadOnce";
@@ -179,7 +177,7 @@ class Objectbrowser extends Component {
           <SpreadsheetObjectbrowser dbdataArr={this.state.dbdataArrState} />
         </Errorboundary>
         <style>{`
-          h1#desk {
+          h1#desk, #objectCopy {
             font-family: Futura, "Ubuntu", "Lucida Grande", "Roboto", Helvetica,
               sans-serif;
           }

@@ -1,16 +1,8 @@
 # okconceptbrowser
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
-
-Describe okconceptbrowser here.
-
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+OkConceptbrowser provides the `Objectbrowser` component (and dependencies) from [OkConcept0](https://okconcept0.pacificio.com)
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm]: https://www.npmjs.org/package/okconceptbrowser
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+**copyright 2019 by [Dan McKeown](https://danmckeown.info) at (pacificio)[https://pacificio.com] released under ISC License**
