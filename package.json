@@ -1,6 +1,6 @@
 {
   "name": "okconceptbrowser",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "okconceptbrowser React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -26,7 +26,8 @@
   "devDependencies": {
     "nwb": "0.23.x",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "evergreen-ui": "4.18.1"
   },
   "author": "",
   "homepage": "",
