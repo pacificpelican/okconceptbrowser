@@ -4,9 +4,6 @@ import Objectbrowser from "./Objectbrowser";
 
 export default class extends Component {
   render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-      <Objectbrowser />
-    </div>
+    return <React.Fragment><Objectbrowser /></React.Fragment>
   }
 }

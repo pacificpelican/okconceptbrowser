@@ -1,14 +1,14 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, {Component} from 'react';
+import {render} from 'react-dom';
 
-import Example from '../../src'
+//  import Example from '../../src';
+import Objectbrowser from '../../src'
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>okconceptbrowser Demo</h1>
-      <Example/>
-    </div>
+    return <React.Fragment>
+      <Objectbrowser />
+    </React.Fragment>
   }
 }
 

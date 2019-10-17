@@ -206,8 +206,13 @@ class Objectbrowser extends Component {
             margin-top: calc(5px + 0.4vh);
             margin-bottom: calc(7px + 0.4vh);
           }
-          input#obj_input_db, input#db_table {
+          input#obj_input_db, input#db_table, input#obj_input {
             height: calc(1rem + 10px);
+          }
+          button#btn-save, button#lookupDB {
+            width: calc(7pt + 11vw);
+            height: calc(10pt + 2vh);
+            background: Gainsboro;
           }
         `}</style>
       </div>
